@@ -118,6 +118,7 @@ nav img {
 .hero-desc {
     font-size: 1rem;
     margin-bottom: 1.6rem;
+    color: #ffffff99;
 }
 .hero-button {
     justify-content: center;
@@ -140,6 +141,7 @@ nav img {
 .about-desc, .about-desc2 {
     font-size: 1rem;
     line-height: 20px;
+    color: #ffffff99;
 }
 .about-desc2 {
     padding-bottom: 5rem;
@@ -259,15 +261,20 @@ nav img {
 .feature-card-desc {
     font-size: 1rem;
     line-height: 24px;
-    color: #ffffff72;
+    color: #ffffff99;
     padding-bottom: 12px;
 }
-.feature-card-footer-para {
+.feature-card-footer-para1, .feature-card-footer-para2, .feature-card-footer-para3 {
     font-size: 1rem;
     font-weight: 600;
     color: #00FF88;
     align-items: center;
     gap: 10px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.feature-card-footer-para1, .feature-card-footer-para3 {
+    margin-top: 30px;
 }
 
 /* host styles */
@@ -300,4 +307,32 @@ nav img {
     position: absolute;
     top: 10px;
     left: 10px;
+}
+
+/* footer styles */
+.footer-container {
+    background-image: url('../assets/footer-bg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 7rem;
+}
+.footer-logo {
+    max-width: 18rem;
+    max-height: 3rem;
+}
+.footer-logos {
+    justify-content: center;
+    gap: 2.5rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.footer-logos p {
+    color: #ffffff99;
+    align-items: center;
+    gap: 5px;
+}
+.footer-copyright {
+    font-size: 1rem;
+    color: #ffffff99;
 }
