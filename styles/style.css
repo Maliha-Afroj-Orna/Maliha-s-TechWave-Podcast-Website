@@ -167,9 +167,65 @@ nav img {
 }
 
 /* choose techwave styles */
+.techwave-container {
+    padding-bottom: 7rem;
+}
 .techwave-title {
     font-size: 2.5rem;
     font-weight: 700;
     padding-top: 7rem;
-    padding-bottom: 2.5rem;
+    padding-bottom: 3rem;
+}
+.techwave-card1, .techwave-card2, .techwave-card3, .techwave-card4, .techwave-card5 {
+    background-color: rgba(53, 17, 101, 0.4);
+    border: none;
+    border-radius: 40px;
+    padding: 40px;
+    cursor: pointer;
+    transition: transform 1s;
+}
+.techwave-card1:hover, .techwave-card2:hover, .techwave-card3:hover, .techwave-card4:hover, .techwave-card5:hover {
+    transform: translateY(-20px);
+    background-color: rgba(53, 17, 101, 0.8);
+}
+.techwave-card-title {
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: #FFFFFF;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+.techwave-card-desc {
+    font-size: 1rem;
+    line-height: 24px;
+    color: #ffffff99;
+}
+.techwave-card1 {
+    grid-area: card1;
+    align-content: center;
+}
+.techwave-card2 {
+    grid-area: card2;
+    align-content: center;
+}
+.techwave-card3 {
+    grid-area: card3;
+    align-content: center;
+}
+.techwave-card4 {
+    grid-area: card4;
+    align-content: center;
+}
+.techwave-card5 {
+    grid-area: card5;
+    align-content: center;
+}
+.techwave-card-container {
+    display: grid;
+    gap: 30px;
+    grid-template-areas: 
+        "card1 card2 card2"
+        "card1 card3 card3"
+        "card4 card4 card5"
+    ;
 }
