@@ -40,7 +40,25 @@
     transform: scale(1.2);
     background-image: linear-gradient(to top right, #f7e83f98, #fb09b298, #9100f898);
 }
-
+.btn2 {
+    background-color: transparent;
+    padding: 0.8rem 1rem;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #00FF88;
+    cursor: pointer;
+    border: 1px solid #00FF88;
+    border-radius: 10000px;
+    transition: transform 1s;
+}
+.btn2:hover {
+    transform: scale(1.2);
+    background-color: #00ff888c;
+    color: #FFFFFF;
+}
+.text-center {
+    text-align: center;
+}
 
 /* main styles */
 /* navbar styles */
@@ -63,4 +81,49 @@ nav img {
 .nav-menu a {
     text-decoration: none;
     font-size: 1rem;
+}
+
+
+/* hero styles */
+.hero-container {
+    background-image: url('../assets/hero-bg.png');
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    height: 90vh;
+}
+.hero-top {
+    max-width: 21rem;
+    max-height: 21rem;
+    margin: 0 auto;
+    padding-top: 40px;
+    padding-bottom: 80px;
+}
+.hero-circle {
+    position: absolute;
+}
+.hero-mic {
+    position: relative;
+    top: 5.8rem;
+    left: 7.4rem;
+}
+.hero-bottom {
+    margin-top: 8%;
+}
+.hero-title {
+    font-size: 3.5rem;
+    font-weight: 800;
+    margin-bottom: 8px;
+}
+.hero-desc {
+    font-size: 1rem;
+    margin-bottom: 1.6rem;
+}
+.hero-button {
+    justify-content: center;
+    gap: 20px;
+}
+.spotify-btn {
+    align-items: center;
+    gap: 5px;
 }
