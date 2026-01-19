@@ -176,7 +176,7 @@ nav img {
     padding-top: 7rem;
     padding-bottom: 3rem;
 }
-.techwave-card1, .techwave-card2, .techwave-card3, .techwave-card4, .techwave-card5 {
+.techwave-card1, .techwave-card2, .techwave-card3, .techwave-card4, .techwave-card5, .host-card {
     background-color: rgba(53, 17, 101, 0.4);
     border: none;
     border-radius: 40px;
@@ -188,14 +188,14 @@ nav img {
     transform: translateY(-20px);
     background-color: rgba(53, 17, 101, 0.8);
 }
-.techwave-card-title {
+.techwave-card-title, .host-card-title {
     font-size: 1.4rem;
     font-weight: 700;
     color: #FFFFFF;
     margin-top: 16px;
     margin-bottom: 16px;
 }
-.techwave-card-desc {
+.techwave-card-desc, .host-card-desc {
     font-size: 1rem;
     line-height: 24px;
     color: #ffffff99;
@@ -235,7 +235,7 @@ nav img {
 .feature-card-container {
     justify-content: space-between;
     gap: 1.5rem;
-    padding-bottom: 7rem;
+    padding-bottom: 4rem;
 }
 .feature-card {
     background-color: #250D44;
@@ -268,4 +268,36 @@ nav img {
     color: #00FF88;
     align-items: center;
     gap: 10px;
+}
+
+/* host styles */
+.host-container {
+    padding-bottom: 7rem;
+}
+.host-card {
+    gap: 34px;
+}
+.host-card-desc {
+    margin-bottom: 1rem;
+}
+.host-card-icons {
+    gap: 20px;
+}
+.host-card-icons span {
+    background: transparent;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #533C72;
+    border-radius: 50%;
+    position: relative;
+    transition: transform 1s;
+}
+.host-card-icons span:hover {
+    transform: scale(1.2);
+    background-color: #553c77;
+}
+.host-card-icons img {
+    position: absolute;
+    top: 10px;
+    left: 10px;
 }
