@@ -102,10 +102,17 @@ nav img {
 .hero-circle {
     position: absolute;
 }
+.hero-top-button {
+    position: relative;
+    top: -7.5rem;
+    left: 16.25rem;
+    background-color: #00FF88;
+    color: #000000;
+}
 .hero-mic {
     position: relative;
     top: 5.8rem;
-    left: 7.4rem;
+    left: 2.8rem;
     transition: transform 1s;
     cursor: pointer;
 }
