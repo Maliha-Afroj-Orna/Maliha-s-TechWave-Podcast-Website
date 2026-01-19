@@ -352,6 +352,9 @@ nav img {
     color: #ffffff99;
 }
 
+
+
+
 /* responsive styles */
 /* small device - 576px */
 @media screen and (max-width: 576px) {
@@ -491,11 +494,7 @@ nav img {
 
     /* footer */
     .footer-container {
-        background-color: #210F40;
-        background-size:contain;
-        background-position: center;
-        padding-top: 4rem;
-        padding-bottom: 4rem;
+        padding: 5rem 7rem;
     }
     .footer-logo {
         max-width: 15rem;
@@ -654,11 +653,7 @@ nav img {
 
     /* footer */
     .footer-container {
-        background-color: #210F40;
-        background-size:contain;
-        background-position: center;
-        padding-top: 4rem;
-        padding-bottom: 4rem;
+        padding: 5rem 7rem;
     }
     .footer-logo {
         max-width: 15rem;
