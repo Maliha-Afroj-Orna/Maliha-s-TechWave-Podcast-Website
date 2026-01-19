@@ -410,6 +410,7 @@ nav img {
         font-size: 3rem;
         font-weight: 800;
         margin-bottom: 8px;
+        margin-top: 15%;
     }
     
     /* about */
@@ -571,6 +572,7 @@ nav img {
         font-size: 3rem;
         font-weight: 800;
         margin-bottom: 8px;
+        margin-top: 10%;
     }
     
     /* about */
@@ -580,7 +582,7 @@ nav img {
     }
     .about-card-container {
         flex-wrap: wrap;
-        gap: 14%;
+        gap: 10%;
         justify-content: space-around;
         padding-top: 3rem;
         padding-bottom: 6rem;
