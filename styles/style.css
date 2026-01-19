@@ -127,3 +127,49 @@ nav img {
     align-items: center;
     gap: 5px;
 }
+
+/* about styles */
+.about-container {
+    padding-top: 8%;
+}
+.about-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+.about-desc, .about-desc2 {
+    font-size: 1rem;
+    line-height: 20px;
+}
+.about-desc2 {
+    padding-bottom: 5rem;
+}
+.about-hr {
+    height: 0.1px;
+    background-color: #ffffff1b;
+    border: none;
+}
+.about-card-container {
+    justify-content: space-between;
+    padding-top: 5rem;
+    padding-bottom: 7rem;
+}
+.about-card-title {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #00FF88;
+}
+.about-card-desc {
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 20px;
+    opacity: 80%;
+}
+
+/* choose techwave styles */
+.techwave-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    padding-top: 7rem;
+    padding-bottom: 2.5rem;
+}
