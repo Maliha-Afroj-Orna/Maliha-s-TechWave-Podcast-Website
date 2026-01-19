@@ -229,3 +229,43 @@ nav img {
         "card4 card4 card5"
     ;
 }
+
+
+/* feature styles */
+.feature-card-container {
+    justify-content: space-between;
+    gap: 1.5rem;
+    padding-bottom: 7rem;
+}
+.feature-card {
+    background-color: #250D44;
+    border: none;
+    border-radius: 20px;
+    max-width: 380px;
+}
+.feature-card iframe {
+    border: none;
+    border-radius: 20px 20px 0 0;
+}
+.card-bottom {
+    padding: 24px;
+}
+.feature-card-title {
+    font-size: 1.2rem;
+    font-weight: 700;
+    padding-top: 0.4rem;
+    padding-bottom: 0.8rem;
+}
+.feature-card-desc {
+    font-size: 1rem;
+    line-height: 24px;
+    color: #ffffff72;
+    padding-bottom: 12px;
+}
+.feature-card-footer-para {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #00FF88;
+    align-items: center;
+    gap: 10px;
+}
