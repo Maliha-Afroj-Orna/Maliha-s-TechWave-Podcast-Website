@@ -130,8 +130,8 @@ nav img {
 }
 .hero-mic {
     position: absolute;
-    top: 40%;
-    left: 35%;
+    top: 30%;
+    left: 30%;
     animation: rotation 8s infinite linear;
     cursor: pointer;
 }
