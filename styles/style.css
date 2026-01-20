@@ -120,6 +120,14 @@ nav img {
         transform: rotate(359deg);
     }
 }
+.hero-top-image {
+    height: 345px;
+    width: 345px;
+    background-image: url('../assets/hero-circle.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
 .hero-mic {
     position: absolute;
     top: 40%;
@@ -399,20 +407,30 @@ nav img {
     .hero-top-button {
         position: absolute;
         top: 46%;
-        left: 58%;
+        left: 68%;
         background-color: #00FF88;
         color: #000000;
         padding: 0.4rem 0.8rem;
         font-size: 0.8rem;
     }
+    .hero-top-image {
+        height: 240px;
+        width: 240px;
+        margin-top: 28%;
+        margin-left: 15%;
+        background-image: url('../assets/hero-circle.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
     .hero-mic {
         position: absolute;
-        top: 63%;
-        left: 42%;
+        top: 62%;
+        left: 41%;
         animation: rotation 8s infinite linear;
         cursor: pointer;
-        width: 65px;
-        height: 85px;
+        width: 70px;
+        height: 100px;
     }
     .hero-title {
         font-size: 3rem;
@@ -556,21 +574,31 @@ nav img {
     }
     .hero-top-button {
         position: absolute;
-        top: 42%;
-        left: 55%;
+        top: 38%;
+        left: 68%;
         background-color: #00FF88;
         color: #000000;
         padding: 0.4rem 0.8rem;
         font-size: 0.8rem;
     }
+    .hero-top-image {
+        height: 280px;
+        width: 280px;
+        margin-top: 22%;
+        margin-left: 10%;
+        background-image: url('../assets/hero-circle.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
     .hero-mic {
         position: absolute;
         top: 60%;
-        left: 38%;
+        left: 40%;
         animation: rotation 8s infinite linear;
         cursor: pointer;
-        width: 65px;
-        height: 85px;
+        width: 85px;
+        height: 120px;
     }
     .hero-title {
         font-size: 3rem;
